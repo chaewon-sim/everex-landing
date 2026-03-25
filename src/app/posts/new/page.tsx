@@ -77,7 +77,7 @@ export default function NewPostPage() {
             gap: "0.75rem",
           }}
         >
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="var(--cds-support-error)" flexShrink="0">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="var(--cds-support-error)" style={{ flexShrink: 0 }}>
             <path d="M8 1C4.1 1 1 4.1 1 8s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm-.5 3h1v5h-1V4zm.5 8.2c-.4 0-.8-.4-.8-.8s.4-.8.8-.8.8.4.8.8-.4.8-.8.8z" />
           </svg>
           <span style={{ fontSize: "0.875rem", color: "var(--cds-support-error)" }}>{error}</span>
